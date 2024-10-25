@@ -1,0 +1,203 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color:#f8f9fa;
+            background-size: cover;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            
+        }
+        h2 {
+            background-color: rgb(36, 36, 87);
+            padding: 5px;
+            color:white;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        .header {
+            background-color: rgb(36, 36, 87);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            width: 100%;
+            z-index: 1;
+        }
+        .header img {
+            height: 60px;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            background-color:#f8f9fa ;
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 1.2rem;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            padding: 20px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .form-container h1 {
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .form-container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .form-container button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 1.2rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .form-container button:hover {
+            background-color: #b1aaaaf1;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: center;
+            color: black;
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            background-color: rgb(36, 36, 87);
+            color:white;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(36, 36, 87);
+            color: #fff;
+            font-size: 18px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .header img {
+                height: 50px;
+                width: 150px;
+            }
+            .wrapper {
+                width: 100%;
+            }
+            .form-container {
+                width: 90%;
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                width: 100vw;
+            }
+            .header img {
+                height: 40px;
+                width: 100px;
+            }
+            .wrapper {
+                width: 100%;
+            }
+            .form-container {
+                width: 100%;
+                padding: 10px;
+            }
+            .form-container input[type="text"], .form-container button {
+                font-size: 1rem;
+                padding: 8px;
+            }
+            table, th, td {
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Style for the unlock button */
+#unlockButton {
+    background-color: rgb(36, 36, 87); /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; /* Round the corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+#unlockButton:hover {
+    background-color:rgb(36, 36, 87) ; /* Darker green on hover */
+}
+
+
+.navbar {
+    background-color: rgb(24, 24, 57);
+    overflow: hidden;
+    text-align: left;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#sep:hover{
+    background-color:rgb(24, 24, 57);
+}
+.navbar a:hover {
+    background-color: red;
+}
+

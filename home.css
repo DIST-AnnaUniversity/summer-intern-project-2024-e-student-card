@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 0.5rem;
+    line-height: 1.5rem;
+    overflow-x:hidden;
+}
+
+.header{
+    background-color: rgb(36, 36, 87);
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.header p{
+    text-align: center;
+    padding:1vw;
+    margin:1vw;
+    text-shadow: 3px 3px black;
+}
+
+ .ceg .ist{
+   width:30vw;
+   height: auto;
+}
+
+nav{
+    display:flex;
+    position:sticky;
+    top:0;
+    flex-direction:column;
+    background-color: black;
+
+}
+
+.nav{
+    display:flex;
+}
+
+.nav div{
+    display:block;
+    padding-left:3vw;
+    padding-right:3vw;
+}
+
+.nav a{
+    display:inline-block;
+    text-decoration: none;
+    padding:2vw;
+    color:white;
+    font-size:2vw;
+}
+
+.nav div:hover,.nav div:focus,.nav div:active{
+    background-color: red;
+    color: white;
+}
+
+
+
+.about{
+    color: white;
+    background-image: url("images/dept2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.about div{
+    margin:5vw;
+    background-color: rgba(0, 0, 0,0.6);
+    padding: 4vw;
+    border-radius: 10px;
+}
+
+.about div h1{
+    margin-bottom: 2vw;
+}
+
+.vision .mission{
+    display:flex;
+    padding:3vw;
+}
+
+.vision img {
+    float:left;
+    margin-right:3vw;
+    width:30vw;
+    height: 20vw;
+}
+
+.mission img{
+    float:right;
+    margin-left:3vw;
+    width:30vw;
+    height: 20vw;
+}
+
+.servi{
+    margin-top:10vw;
+    margin-left:5vw;
+    font-size:4vw;
+    font-weight: bolder;
+}
+
+.services{
+    margin:8vw;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.services div{
+    background-color: black;
+    color: white;
+    font-size:4vw;
+    text-align: center;
+    padding:3vw;
+    border-radius: 5px;
+    margin:3vw;
+}
+
+.services div:hover,div:focus{
+    background-color:  rgb(79, 176, 246);
+}
+
+
+.services a{
+    text-decoration: none;
+    color:white;
+    padding-top:3vw;
+}
+
+.services img{
+    border-radius: 50%;
+    border-bottom: 3vw;
+}
+
+.contact{
+    display:flex;
+    background-color: black;
+    color:white;
+    padding:3vw;
+    font-size:1.5vw;
+}
+.con-info{
+    padding:5vw;
+    line-height: 2rem;
+}
+
+.links{
+    display:flex;
+    flex-direction: column;
+}
+
+.links div{
+    display:flex;
+    align-items: center;
+    margin:3vw;
+}
+
+
+
+.links img{
+    width:5vw;
+    height:5vw;
+    border-radius: 10px;
+
+}
+
+.links a{
+    text-decoration: none;
+    
+    color: white;
+    margin-left:3px;
+}
+
+.links a:active{
+    color: green;
+}
+
+.links a:hover,a:focus{
+    color:red;
+}
+
+
+footer{
+    background-color: rgb(36, 36, 87);
+    color: white;
+    text-align: center;
+    padding:5vw;
+    font-size: 3vw;
+}

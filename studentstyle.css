@@ -1,0 +1,213 @@
+body {
+    font-family: 'Merriweather', serif; /* A more formal serif font */
+    word-spacing: 0.3rem;
+    line-height: 1.8rem;
+    margin: 0;
+    background-color: #F4F4F9; /* A soft, neutral background */
+}
+
+.header {
+    background-color: rgb(36, 36, 87); /* Deep, formal blue-gray */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.header img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.header h2 {
+    color: white;
+    font-size: 25px; /* Formal, slightly larger text */
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.content {
+    padding: 40px;
+    flex-grow: 1;
+    margin-top: 30px;
+    margin-bottom: 80px; /* Ensure space for footer */
+    background-color: white; /* Clean white background for content */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #2C3E50; /* Consistent, formal text color */
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: 700; /* Bold and prominent */
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600; /* Slightly bold for emphasis */
+}
+
+.text {
+    background-color: #ECEFF1; /* Light gray for contrast */
+    border: 1px solid #CFD8DC; /* Subtle border */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    color: #37474F; /* Deep gray text */
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #DADFE1; /* Light gray border for a formal look */
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    font-size: 20px;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #2C3E50;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #2C3E50;
+    text-align: left;
+    font-size: 18px;
+}
+
+.form-group input, .form-group select {
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #BDC3C7;
+    background-color: #FAFAFA;
+    color: #2C3E50;
+    transition: border 0.3s, box-shadow 0.3s;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form-group input:focus, .form-group select:focus {
+    border: 1px solid #2980B9;
+    box-shadow: 0 0 8px rgba(41, 128, 185, 0.4); /* Soft focus shadow */
+    outline: none;
+}
+
+.form-group textarea {
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #BDC3C7;
+    border-radius: 8px;
+    background-color: #FAFAFA;
+    color: #2C3E50;
+    transition: border 0.3s, box-shadow 0.3s;
+    resize: vertical;
+    min-height: 140px;
+}
+
+.form-group textarea:focus {
+    border: 1px solid #2980B9;
+    box-shadow: 0 0 8px rgba(41, 128, 185, 0.4);
+    outline: none;
+}
+
+.design {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.design .form-group {
+    flex: 1 1 calc(50% - 25px);
+    min-width: 320px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: rgb(36, 36, 87);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #21618C;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2); /* Added shadow on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color:rgb(36, 36, 87); /* Darker footer for a formal look */
+    color: #ECF0F1;
+    width: 100%;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    position: relative;
+    bottom: 0; /* Ensure it stays at the bottom */
+}
+
+footer a {
+    color: #AED6F1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .header img {
+        height: 40px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    form {
+        gap: 20px;
+    }
+
+    form button {
+        padding: 12px 20px;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
