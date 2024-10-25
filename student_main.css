@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.header{
+    background-color: rgb(36, 36, 87);
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header p{
+    text-align: center;
+    padding:1vw;
+    margin:1vw;
+    text-shadow: 3px 3px black;
+}
+
+ .ceg .ist{
+   width:30vw;
+   height: auto;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-image: url("images/dept2.jpg");
+    background-size: cover;
+    width: 100vw;
+}
+
+.main div{
+    background-color: black;
+    color: white;
+    width:40vw;
+    text-align: center;
+    margin-top:3vw;
+    margin-bottom:3vw;
+    font-size:min(3vw,20px);
+    padding:2vw;
+    border-radius: 20px;
+    outline:3px solid white;
+    outline-offset: 2px;;
+}
+
+.main div:hover,div:focus{
+    background-color: red;
+}
+
+
+.links{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+}
+
+.links div{
+    align-items: center;
+    justify-content: center;
+    margin:1vw;
+}
+
+.links img{
+    width:5vw;
+    height:5vw;
+    border-radius: 10px;
+
+}
+
+.links a{
+    text-decoration: none;
+
+    color: white;
+    margin-left:3px;
+}
+
+.links a:active{
+    color: green;
+}
+
+.links a:hover,a:focus{
+    color:red;
+}
+
+
+footer{
+    background-color: rgb(36, 36, 87);
+    color: white;
+    text-align: center;
+    padding:5vw;
+    font-size: 3vw;
+}
